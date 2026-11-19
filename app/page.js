@@ -788,14 +788,15 @@ export default function Home() {
         </section>
 
         <section id="contact">
+          <span className="tag">Connect With Us</span>
+          <h2>Bring AIMVIRTUE to your Campus or Company</h2>
           <Win className="contact">
-            <span className="tag">Connect With Us</span>
-            <h2>Bring AIMVIRTUE to your Campus or Company</h2>
             <p>
-              Whether you are a School Principal scheduling a complimentary
-              &quot;Seed To Start&quot; AI workshop, a student leveling up your
-              career, or a company hiring pre-vetted talent - let&apos;s build
-              together.
+              From bringing hands-on AI &amp; future-skills workshops to your
+              school or college campus, to mentoring students through live
+              builder sprints and connecting startups with day-one ready
+              talent - our Gwalior team is just one message away. Pick your
+              preferred channel below and let&apos;s start the conversation.
             </p>
             <div className="links">
               <a
