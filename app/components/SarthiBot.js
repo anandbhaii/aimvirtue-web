@@ -189,40 +189,12 @@ export default function SarthiBot() {
         type="button"
         onClick={() => setOpen((o) => !o)}
         aria-label="Open SARTHI Assistant"
-        style={{
-          position: 'fixed',
-          right: '20px',
-          bottom: '20px',
-          zIndex: 90,
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '10px',
-          padding: open ? '12px' : '12px 18px',
-          borderRadius: '999px',
-          border: '1px solid rgba(255, 122, 26, 0.55)',
-          background: 'linear-gradient(135deg, #1b130e, #0f0a08)',
-          color: 'var(--tx)',
-          fontWeight: 700,
-          fontSize: '14px',
-          cursor: 'pointer',
-          boxShadow: '0 12px 34px rgba(0, 0, 0, 0.65), 0 0 24px rgba(255, 122, 26, 0.25)',
-        }}
+        className={`sarthi-trigger ${open ? 'is-open' : ''}`}
       >
-        <span
-          style={{
-            width: '30px',
-            height: '30px',
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, var(--ac), #d95b00)',
-            color: '#fff',
-            display: 'grid',
-            placeItems: 'center',
-            fontSize: '15px',
-          }}
-        >
+        <span className="sarthi-trigger-icon">
           {open ? <FiX /> : <FiCompass />}
         </span>
-        {!open && <span>Ask SARTHI</span>}
+        {!open && <span className="sarthi-trigger-label">Ask SARTHI</span>}
       </button>
 
       {/* SARTHI Chat Window */}

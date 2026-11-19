@@ -284,3 +284,58 @@ footer{text-align:center;color:var(--mut);font-size:13px;padding:40px 0}
   border-color: rgba(255, 122, 26, 0.35);
   background: rgba(255, 122, 26, 0.08);
 }
+
+/* SARTHI Floating Trigger Button */
+.sarthi-trigger {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 122, 26, 0.5);
+  background: linear-gradient(135deg, #1b130e, #0f0a08);
+  color: var(--tx);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.65), 0 0 18px rgba(255, 122, 26, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sarthi-trigger.is-open {
+  padding: 8px;
+}
+
+.sarthi-trigger-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ac), #d95b00);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .sarthi-trigger {
+    right: 14px;
+    bottom: 14px;
+    gap: 6px;
+    padding: 6px 11px 6px 7px;
+    font-size: 11.5px;
+  }
+  .sarthi-trigger.is-open {
+    padding: 7px;
+  }
+  .sarthi-trigger-icon {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+  }
+}
