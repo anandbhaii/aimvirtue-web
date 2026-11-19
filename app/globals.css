@@ -239,7 +239,21 @@ footer{text-align:center;color:var(--mut);font-size:13px;padding:40px 0}
 .rv.in{opacity:1;transform:none}
 @media(max-width:768px){.track-panel{grid-template-columns:1fr}}
 @media(max-width:760px){.job-highlights{grid-template-columns:1fr}}
-@media(max-width:700px){.nav{width:calc(100% - 24px);justify-content:space-between;overflow-x:auto}.nav a{padding:8px 10px;font-size:13px}}
+@media(max-width:700px){
+  .nav{
+    width:calc(100% - 24px);
+    max-width:420px;
+    justify-content:space-around;
+    gap:2px;
+    padding:6px;
+    overflow:hidden;
+  }
+  .nav a{
+    padding:7px 8px;
+    font-size:12px;
+    white-space:nowrap;
+  }
+}
 @media(max-width:640px){.msg{max-width:92%}}
 
 /* Sub-pages navigation strip above footer */
