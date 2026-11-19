@@ -329,6 +329,7 @@ export default function FeedbackPage() {
 
       <div className="subpages-bar">
         <a href="/team">Our Team</a>
+        <a href="/afterhours">Afterhours</a>
         <a href="/verify">Verify Certificate</a>
         <a href="/feedback">Feedback</a>
       </div>
