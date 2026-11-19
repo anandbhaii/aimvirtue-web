@@ -285,7 +285,7 @@ export default function VerifyPage() {
       <nav className="nav">
         <Link href="/">Home</Link>
         <Link href="/#skills">Pathways</Link>
-        <Link href="/team">Our Team</Link>
+        <Link href="/#partners">Collaborate</Link>
         <Link href="/#contact">Connect</Link>
       </nav>
 

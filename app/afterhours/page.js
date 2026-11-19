@@ -102,8 +102,8 @@ export default function AfterhoursPage() {
       <nav className="nav">
         <Link href="/">Home</Link>
         <Link href="/#skills">Pathways</Link>
-        <Link href="/team">Our Team</Link>
-        <Link href="/verify">Verify</Link>
+        <Link href="/#partners">Collaborate</Link>
+        <Link href="/#contact">Connect</Link>
       </nav>
 
       {/* Floating Side Section Dots */}
