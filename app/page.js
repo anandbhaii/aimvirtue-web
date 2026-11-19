@@ -694,7 +694,7 @@ useEffect(() => {
             <div className="links">
               <a
                 className="icon-btn"
-                href="mailto:helloaimvirtue@gimail.com"
+                href="mailto:helloaimvirtue@gmail.com"
                 title="Mail Us"
                 aria-label="Mail Us"
               >

@@ -33,6 +33,13 @@ const TEAM_MEMBERS = [
     linkedin: 'https://www.linkedin.com/in/anurag-rana12/',
   },
   {
+    name: 'Mohit Rajak',
+    role: 'Outreach & Growth Associate',
+    bio: 'Driving campus connections, coordinating with school leaders, and building strong student & partner pipelines across the region.',
+    img: '/team/mohit.jpeg',
+    linkedin: 'https://www.linkedin.com/in/mohit-kumar-rajak-973b13404/',
+  },
+  {
     name: 'Anamika Pandey',
     role: 'Youth Speaker & AI Facilitator',
     bio: 'Empowering young minds on stage by breaking down complex AI concepts into engaging, ethical, and practical study workflows for students.',
@@ -52,13 +59,6 @@ const TEAM_MEMBERS = [
     bio: 'Building live AI-integrated tools and mentoring student cohorts to ship real digital products during intensive builder sprints.',
     img: '/team/himanshu.jpeg',
     linkedin: 'https://www.linkedin.com/in/himanshu-singh-sengar-4455a1379/',
-  },
-  {
-    name: 'Mohit Rajak',
-    role: 'Outreach & Growth Associate',
-    bio: 'Driving campus connections, coordinating with school leaders, and building strong student & partner pipelines across the region.',
-    img: '/team/mohit.jpeg',
-    linkedin: 'https://www.linkedin.com/in/mohit-kumar-rajak-973b13404/',
   },
 ];
 
