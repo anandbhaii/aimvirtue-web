@@ -181,10 +181,16 @@ export default function FeedbackPage() {
 
               {/* Star Rating */}
               <div>
-                <label style={{ display: 'block', fontSize: '12.5px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--mut)', marginBottom: '8px' }}>
-                  3. Rate your overall experience
-                </label>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <label style={{ fontSize: '12.5px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--mut)' }}>
+                    3. Rate your overall experience
+                  </label>
+                  <span style={{ fontSize: '13px', color: 'var(--ac2)', fontWeight: 700, whiteSpace: 'nowrap' }}>
+                    {rating}/5 Stars
+                  </span>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
                   {[1, 2, 3, 4, 5].map((star) => {
                     const active = (hoverRating || rating) >= star;
                     return (
@@ -196,13 +202,15 @@ export default function FeedbackPage() {
                         onMouseLeave={() => setHoverRating(0)}
                         aria-label={`Rate ${star} stars`}
                         style={{
+                          flex: '1 1 42px',
+                          maxWidth: '52px',
                           background: 'rgba(255,255,255,0.03)',
                           border: `1px solid ${active ? 'rgba(255, 122, 26, 0.5)' : 'var(--line)'}`,
                           borderRadius: '10px',
-                          padding: '8px 10px',
+                          padding: '9px 0',
                           cursor: 'pointer',
                           color: active ? '#ff7a1a' : 'var(--mut)',
-                          fontSize: '20px',
+                          fontSize: '19px',
                           display: 'grid',
                           placeItems: 'center',
                           transition: 'all 0.2s ease',
@@ -212,9 +220,6 @@ export default function FeedbackPage() {
                       </button>
                     );
                   })}
-                  <span style={{ fontSize: '13px', color: 'var(--ac2)', marginLeft: '6px', fontWeight: 600 }}>
-                    {rating}/5 Stars
-                  </span>
                 </div>
               </div>
 
