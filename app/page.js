@@ -401,7 +401,7 @@ useEffect(() => {
       <main className="wrap">
         <header className="hero" id="about">
           <div>
-            <span className="tag">India&apos;s Peer-Led AI &amp; Career Launchpad</span>
+            <span className="tag">Gwalior&apos;s Student-Led AI &amp; Career Hub</span>
             <h1 className="nm" aria-label="AIMVIRTUE">
               {NAME.map((w, wi) => (
                 <span className="w" key={w} aria-hidden="true">
