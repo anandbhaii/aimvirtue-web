@@ -48,7 +48,7 @@ const TEAM_MEMBERS = [
   },
   {
     name: 'Anamika Pandey',
-    role: 'AI Mentor & AI Facilitator',
+    role: 'AI Mentor & Facilitator',
     bio: 'Blending student leadership from IEEE and AI Club initiatives to facilitate engaging campus sessions-making generative AI, ethical usage, and smart study workflows accessible for students.',
     img: '/team/anamika.png',
     linkedin: 'https://www.linkedin.com/in/anamika-pandey-04b538347/',
