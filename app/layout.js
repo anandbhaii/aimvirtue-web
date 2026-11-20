@@ -1,6 +1,7 @@
 import './globals.css';
 import { Manrope } from 'next/font/google';
 import SarthiBot from './components/SarthiBot';
+import ImageGuard from './components/ImageGuard';
 // import SoundEffects from './components/SoundEffects';
 
 const font = Manrope({ subsets: ['latin'], display: 'swap' });
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={font.className}>{children}
         <SarthiBot />
+        <ImageGuard />
         {/* <SoundEffects /> */}
       </body>
     </html>
