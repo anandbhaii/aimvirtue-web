@@ -189,12 +189,10 @@ export default function TeamPage() {
 
         {/* Individual Team Members Grid */}
         <div id="members" style={{ maxWidth: '860px', margin: '0 auto 64px', scrollMarginTop: '100px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-            <span className="tag" style={{ marginBottom: '12px' }}>People Driving The Mission</span>
-            <h2 style={{ fontSize: 'clamp(24px, 3.5vw, 34px)', margin: '8px 0 0' }}>
-              Core Builders &amp; Leads
-            </h2>
-          </div>
+          <span className="tag">People Driving The Mission</span>
+          <h2 style={{ fontSize: 'clamp(26px, 3.8vw, 38px)', margin: '16px 0 28px' }}>
+            Core Builders &amp; Leads
+          </h2>
 
           <div
             style={{
@@ -300,18 +298,21 @@ export default function TeamPage() {
         </div>
 
         {/* About AIMVIRTUE Story */}
-        <div id="story" className="win rv in" style={{ maxWidth: '860px', margin: '0 auto 28px', padding: '26px 28px', scrollMarginTop: '100px' }}>
-          <div className="dots"><i /><i /><i /></div>
-          <span className="tag" style={{ marginBottom: '14px' }}>Who We Are</span>
-          <h2 style={{ fontSize: 'clamp(22px, 3vw, 30px)', margin: '8px 0 14px' }}>
+        <div id="story" style={{ maxWidth: '860px', margin: '0 auto 28px', scrollMarginTop: '100px' }}>
+          <span className="tag">Who We Are</span>
+          <h2 style={{ fontSize: 'clamp(26px, 3.8vw, 38px)', margin: '16px 0 28px' }}>
             Bridging Classrooms to Careers with Applied Intelligence
           </h2>
-          <p style={{ color: 'var(--mut)', fontSize: '15.5px', lineHeight: 1.75, marginBottom: '14px' }}>
-            <strong style={{ color: 'var(--tx)' }}>AIMVIRTUE</strong> started with a simple observation: school students were either treating AI as a shortcut for homework or staying completely unaware of its potential, while college graduates were struggling with skill gaps despite holding degrees.
-          </p>
-          <p style={{ color: 'var(--mut)', fontSize: '15.5px', lineHeight: 1.75, margin: 0 }}>
-            Operating through two integrated engines-<strong style={{ color: 'var(--ac2)' }}>Seed To Start</strong> and <strong style={{ color: 'var(--ac2)' }}>Great To Greatness</strong> - our student-led squad is on a mission to impact 10,000+ learners across campuses.
-          </p>
+
+          <div className="win rv in" style={{ padding: '26px 28px' }}>
+            <div className="dots"><i /><i /><i /></div>
+            <p style={{ color: 'var(--mut)', fontSize: '15.5px', lineHeight: 1.75, marginBottom: '14px' }}>
+              <strong style={{ color: 'var(--tx)' }}>AIMVIRTUE</strong> started with a simple observation: school students were either treating AI as a shortcut for homework or staying completely unaware of its potential, while college graduates were struggling with skill gaps despite holding degrees.
+            </p>
+            <p style={{ color: 'var(--mut)', fontSize: '15.5px', lineHeight: 1.75, margin: 0 }}>
+              Operating through two integrated engines-<strong style={{ color: 'var(--ac2)' }}>Seed To Start</strong> and <strong style={{ color: 'var(--ac2)' }}>Great To Greatness</strong> - our student-led squad is on a mission to impact 10,000+ learners across campuses.
+            </p>
+          </div>
         </div>
 
         {/* 3 Core Values Grid */}
